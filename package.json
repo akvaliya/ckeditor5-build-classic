@@ -1,8 +1,6 @@
 {
-  "name": "@ckeditor/ckeditor5-build-classic",
-  "version": "12.3.1",
-  "description": "The classic editor build of CKEditor 5 – the best browser-based rich text editor.",
-  "keywords": [
+  "name": "ckeditor5-classic-doctoolbar",
+  "version": "1.0.0",  "description": "The classic editor build of CKEditor 5 – the best browser-based rich text editor.",  "keywords": [
     "ckeditor5-build",
     "ckeditor",
     "ckeditor5",
