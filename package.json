@@ -1,7 +1,7 @@
 {
   "name": "@akvaliya/ckeditor5-classic-doctoolbar",
   "version": "1.0.0",
-  "description": "The classic editor build of CKEditor 5 – the best browser-based rich text editor.",
+  "description": "Theclassic editor build of CKEditor 5 – the best browser-based rich text editor.",
   "keywords": [
     "ckeditor5-build",
     "ckeditor",
@@ -68,7 +68,7 @@
   "bugs": "https://github.com/ckeditor/ckeditor5-build-classic/issues",
   "repository": {
     "type": "git",
-    "url": "https://github.com/akvaliya/ckeditor5-build-classic.git"
+    "url": "https://github.com/akvaliya/ckeditor5-classic-doctoolbar.git"
   },
   "scripts": {
     "build": "webpack --mode production",

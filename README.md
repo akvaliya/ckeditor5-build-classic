@@ -1,8 +1,8 @@
-CKEditor 5 classic editor build
+CKEditor 5 classic editor build with document editor toolbar
 ========================================
 
 [![Join the chat at https://gitter.im/ckeditor/ckeditor5](https://badges.gitter.im/ckeditor/ckeditor5.svg)](https://gitter.im/ckeditor/ckeditor5?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-[![npm version](https://badge.fury.io/js/%40ckeditor%2Fckeditor5-build-classic.svg)](https://www.npmjs.com/package/@ckeditor/ckeditor5-build-classic)
+[![npm version](https://badge.fury.io/js/%40ckeditor%2Fckeditor5-build-classic.svg)](https://www.npmjs.com/package/@akvaliya/ckeditor5-classic-doctoolbar)
 [![Build Status](https://travis-ci.org/ckeditor/ckeditor5-build-classic.svg?branch=master)](https://travis-ci.org/ckeditor/ckeditor5-build-classic)
 <br>
 [![Dependency Status](https://david-dm.org/ckeditor/ckeditor5-build-classic/status.svg)](https://david-dm.org/ckeditor/ckeditor5-build-classic)
@@ -10,7 +10,7 @@ CKEditor 5 classic editor build
 
 The classic editor build for CKEditor 5. Read more about the [classic editor build](https://ckeditor.com/docs/ckeditor5/latest/builds/guides/overview.html#classic-editor) and see the [demo](https://ckeditor.com/docs/ckeditor5/latest/examples/builds/classic-editor.html).
 
-![CKEditor 5 classic editor build screenshot](https://c.cksource.com/a/1/img/npm/ckeditor5-build-classic.png)
+![CKEditor 5 classic editor build with full toolbar screenshot](https://content.screencast.com/users/Akvaliya/folders/Jing/media/0233a936-2733-44f7-a693-8528f9f19b84/2020-01-28_1754.png)
 
 ## Documentation
 
@@ -26,7 +26,7 @@ See:
 First, install the build from npm:
 
 ```bash
-npm install --save @ckeditor/ckeditor5-build-classic
+npm install --save @akvaliya/ckeditor5-classic-doctoolbar
 ```
 
 And use it in your website:
@@ -35,7 +35,7 @@ And use it in your website:
 <div id="editor">
 	<p>This is the editor content.</p>
 </div>
-<script src="./node_modules/@ckeditor/ckeditor5-build-classic/build/ckeditor.js"></script>
+<script src="./node_modules/@akvaliya/ckeditor5-classic-doctoolbar/build/ckeditor.js"></script>
 <script>
 	ClassicEditor
 		.create( document.querySelector( '#editor' ) )
@@ -51,10 +51,10 @@ And use it in your website:
 Or in your JavaScript application:
 
 ```js
-import ClassicEditor from '@ckeditor/ckeditor5-build-classic';
+import ClassicEditor from '@akvaliya/ckeditor5-classic-doctoolbar';
 
 // Or using the CommonJS version:
-// const ClassicEditor = require( '@ckeditor/ckeditor5-build-classic' );
+// const ClassicEditor = require( '@akvaliya/ckeditor5-classic-doctoolbar' );
 
 ClassicEditor
 	.create( document.querySelector( '#editor' ) )
